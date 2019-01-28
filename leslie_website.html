@@ -4,12 +4,12 @@
   <title> Leslie's Resume </title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid bg-warning">
     <div class="row">
-      <div class="column">
-        <img src="img/cold_selfie.jpg" alt="Cold selfie at Alaska">
+      <div class="col-md-3 col-sm-3 col-lg-3 col-xs-3">
+        <img src="img/cold_selfie.jpg" class="img-thumbnail rounded float-left img-fluid" alt="Cold selfie at Alaska">
       </div>
-      <div class="column">
+      <div class="col-md-9 col-sm-9 col-lg-9 col-xs-9">
         <h1>Leslie Lee</h1>
         <h2>Portland, OR<br>
           Phone: 503.888.7997  Email: flesslele@gmail.com<br>
@@ -17,22 +17,58 @@
           <a href="https://www.linkedin.com/in/leslie-l-a3a190146/">  LinkedIn Page</a><br>
         </h2>
         <div class="skill">
-          <span class="title">Skills<span><br>
-            Languages: <span class="highlight">R</span>, Python, JavaScript, CSS<br>
-            Tools:  RStudio, MS-SQL, Git, Github, Stata, PowerPivot<br>
-            Miscellaneous: Web Scraping, Project Management, Quality Assurance, Data Management<br>
-            Specialty: Reporting, <span class="highlight">Data Analysis</span>, Data Visualization, Consulting, <span class="highlight">Behavioral Economics</span><br>
+          <span class="highlight">Skills</span><br>
+            <span class="highlight">Languages:</span> R, Python, JavaScript, CSS<br>
+            <span class="highlight">Tools:</span> RStudio, MS-SQL, Git, Github, Stata, PowerPivot<br>
+            <span class="highlight">Miscellaneous:</span> Web Scraping, Project Management, Quality Assurance, Data Management<br>
+            <span class="highlight">Specialty:</span> Reporting, Data Analysis, Data Visualization, Consulting, Behavioral Economics<br>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="container bg-dark text-white">
+      <h3>Projects</h3>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 col-sm-6">
+          <ul>
+            <span class="highlight"><li><a href="https://github.com/LeslieLee23/goodbye">goodbye</a></li></span>
+            <ul>
+              <li>Description: my first html project on Github</li>
+              <li>Language: html</li>
+            </ul>
+            <span class="highlight"><li><a href="https://github.com/LeslieLee23/my-first-webpage">my-first-webpage</a></li></span>
+            <ul>
+              <li>Description: html practice project</li>
+              <li>Language: html, css</li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-6">
+          <ul>
+            <span class="highlight"><li><a href="https://github.com/LeslieLee23/animal-shelter.git">animal-shelter</a></li></span>
+            <ul>
+              <li>Description: html and css practice with picture</li>
+              <li>Language: html, css</li>
+            </ul>
+            <span class="highlight"><li><a href="https://github.com/LeslieLee23/week.git">week</a></li></span>
+            <ul>
+              <li>Description: Bootstrap practice project</li>
+              <li>Language: html, css</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
     <div class="experience">
-      <span class="title">Experience</span><br>
+      <div class="container well">
+    <h3>About Me</h3>
+      <span class="sec">Experience</span><br>
 
-      Audigy Medical, Vancouver, WA<br>                                                                                                             June 2017 - Present
+      <span class="comp">Audigy Medical</span>, Vancouver, WA<br>
+      June 2017 - Present<br>
 
-      Practice Management Consultant<br>
+      <span class="title">Practice Management Consultant</span><br>
       <p>
         <ul>
           <li>Develop and implement strategic and tactical initiatives on operation, marketing and finance for 21 medical practices across the United States.</li>
@@ -47,9 +83,9 @@
         </ul>
       </p>
 
-      Oregon Health & Science University (OHSU), Portland, OR<br>
+      <span class="comp">Oregon Health & Science University (OHSU)</span>, Portland, OR<br>
       Oregon Clinical & Translational Research Institute (OCTRI)<br>
-      Research Assistant II<br>                                                                                                                 October 2017 - April 2018
+      <span class="title">Research Assistant II</span><br>                                                                                                                 October 2017 - April 2018
       <p>
         <ul>
           <li>Pulled data from Research Data Warehouse (RDW), an Epic data repository with 2.5 million patients records.</li>
@@ -61,9 +97,9 @@
         </ul>
       </p>
 
-      Reed College, Portland, OR<br>
+      <span class="comp">Reed College, Portland</span>, OR<br>
       Institutional Research<br>
-      Research Assistant<br>                                  	                                                                             October 2014 - May 2017
+      <span class="title">Research Assistant</span><br>                                  	                                                                             October 2014 - May 2017
       <p>
         <ul>
           <li>Researched statistical information that supports institutional planning, policy formulation, and decision-making.</li>
@@ -75,8 +111,9 @@
           <li>Obtained position by means of faculty recommendation as observed in course performance.</li>
         </ul>
       </p>
-      Harvard Management Associates Inc., New York City, NY<br>
-      Social Media Intern<br>                 	                                                                                                  May 2015 - July 2015
+
+      <span class="comp">Harvard Management Associates Inc.</span>, New York City, NY<br>
+      <span class="title">Social Media Intern</span><br>                 	                                                                                                  May 2015 - July 2015
       <p>
         <ul>
           <li>Edited and published Economics and Business news and articles on company-owned newspaper.</li>
@@ -85,9 +122,9 @@
         </ul>
       </p>
 
-      Reed College, Portland, OR<br>
+      <span class="comp">Reed College</span>, Portland, OR<br>
       Economics Department<br>
-      Research Assistant<br>                                                                                                                   October 2014 - November 2014
+      <span class="title">Research Assistant</span><br>                                                                                                                   October 2014 - November 2014
       <p>
         <ul>
           <li>Assisted professor Dr. Hare researching for the paper: Trends in Urban Women’s Labor Supply in Post-reform China.</li>
@@ -95,16 +132,18 @@
         </ul>
       </p>
 
-
-      <span class="title">Education</span><br>
-
-      Reed College, Portland, OR<br>           	                                                                                        Graduation Date: May 2017
+      <br>
+      <span class="sec">Education</span><br>
+      <br>
+      <span class="comp">Reed College</span>, Portland, OR<br>           	                                                                                        Graduation Date: May 2017
       Bachelor of Arts, Economics-Psychology<br>
-
-      Senior Thesis: “Maximizers vs. Satisficers: Decision-making style, sense of control, and vulnerability to the sunk-cost fallacy”.
+      <br>
+      Senior Thesis:"<i>Maximizers vs. Satisficers: Decision-making style, sense of control, and vulnerability to the sunk-cost fallacy".</i>
       Designed an online experiment and implemented it on SurveyGizmo; recruited 380 participants for the study from Amazon Mechanical Turk.
-      The findings of the study were commented as “deeply meaningful” by the author of the most popular Cognitive Psychology textbook in the US.<br>
-
-      Relevant Courses:  Statistics, Econometric, Research Design and Data Analysis, Python Data Structures, Behavioral Economics
+      The findings of the study were commented as "deeply meaningful" by the author of the most popular Cognitive Psychology textbook in the US.<br>
+      <br>
+      <strong>Relevant Courses:</strong>  Statistics, Econometric, Research Design and Data Analysis, Python Data Structures, Behavioral Economics
     </div>
+  </div>
+</div>
   </body>

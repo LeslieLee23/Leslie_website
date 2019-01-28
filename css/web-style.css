@@ -1,47 +1,53 @@
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family:"Times New Roman", Times, serif;
   font-weight: bold;
 }
 
 h2 {
   text-align: center;
-  font-size: 18px;
+  font-size: 13px;
   font-family: inherit;
 }
 
-img {
-width: 150px;
-  margin: 12px;
-  float: left;
-}
-.skill{
-  font-size: 4px;
-  border: 30px black;
-  padding: 10px;
-  margin: 20px;
-  background-color: orange;
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Times New Roman";
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+
+.skill{
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 5px;
+  margin: 2px;
+  background-color: orange;
+  font-family:"Times New Roman", Times, serif;
 }
-.column {
-  flex: 50%;
-  padding: 0 4px;
-}
+
+
 .experience{
   font-family:"Times New Roman", Times, serif;
 }
 
 .highlight{
-  color: red;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sec{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .title{
-  font-size: 20px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.comp{
   font-weight: bold;
 }
