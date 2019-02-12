@@ -1,12 +1,12 @@
-# _{Leslie Lee Website}_
+# Leslie Lee Website
 
-#### _{Website project for Epicodus}, {1/23/2019}_
+#### _Website project for Epicodus, 1/23/2019
 
-#### By _**{Leslie Lee}**_
+#### By Leslie Lee
 
 ## Description
 
-_{This is the first assignment at Epicodus. It is a git, html and css independent project. I will introduce myself and list projects I have created. }_
+This is the first assignment at Epicodus. It is a git, html and css independent project. I will introduce myself and list projects I have created.
 
 ## Setup/Installation Requirements
 
@@ -16,22 +16,21 @@ _{This is the first assignment at Epicodus. It is a git, html and css independen
 * _easy-to-understand_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?
 
 ## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. 
 
 ## Support and contact details
 
-_{Please contact me at flesslele@gmail.com}_
+Please contact me at flesslele@gmail.com
 
 ## Technologies Used
 
-_{HTML, css, bootstrap}_
+HTML, css, bootstrap
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Determine the license under which this application can be used.  See below for more details on licensing.*
 
-Copyright (c) 2019 **_{Epicodus}_**
+Copyright (c) 2019 **Epicodus**
